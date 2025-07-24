@@ -10,7 +10,7 @@
 /* common css */
 .container{
     max-width: 1440px;
-    margin: 0px 150px;
+    margin: auto;
     
 }
 
@@ -37,7 +37,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: ;
+    gap: 100px;
 }
 .nav-item a{
     
