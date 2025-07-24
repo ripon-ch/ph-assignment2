@@ -1,0 +1,98 @@
+/* global */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 248, 255);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* common css */
+.container{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+
+/* customs font*/
+.montserrat-txt {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*sheared color */
+.orange{
+    color:  rgb(233, 90, 8);
+}
+.gray-blue{
+    color: rgb(137, 135, 161);
+}
+/* custom css*/
+
+/* nav desktop style */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a{
+    
+    list-style: none;
+    text-decoration: none;
+   
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+}
+
+.nav-item{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 48px;
+}
+
+
+
+.nav-item a:nth-child(1),
+ .nav-item a:nth-child(4)
+ {
+    color: black;
+}
+
+ .nav-item a:nth-child(2),
+ .nav-item a:nth-child(3)
+ {
+    color: rgb(137, 135, 161);
+}
+
+/* banner style start */
+
+span{
+    color:  rgb(233, 90, 8);
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 221px;
+    gap: 50px;
+}
+.banner-left h2{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+}
+
+.banner-left p{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
