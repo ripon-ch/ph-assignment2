@@ -37,6 +37,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: ;
 }
 .nav-item a{
     
@@ -80,12 +81,16 @@ span{
 .banner{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin-top: 221px;
-    gap: 50px;
+    
+}
+.banner-left{
+    max-width: 65%;
 }
 .banner-left h2{
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -95,4 +100,6 @@ span{
 .banner-left p{
     font-family: sans-serif;
     font-size: 1rem;
+    letter-spacing: 1px;
+    max-width: 90%;
 }
