@@ -232,7 +232,7 @@ background: url(trusted-badge);
 }
 
 .content-box h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -246,7 +246,7 @@ background: url(trusted-badge);
 .content-box li {
     margin-bottom: 15px;
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: .5rem;
 }
 
 /* latest deals style */
@@ -265,13 +265,14 @@ background: url(trusted-badge);
 }
 .deals p{
     font-size: 1.5rem;
-    
-    
-    
-    
-    
+
 }
 
+/* photo grid style */
+.photo-grid-container {
+    display: grid;
+    grid-template-rows: (1,2fr);
+}
 
 /* footer 
 footer{
