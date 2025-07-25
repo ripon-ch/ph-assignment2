@@ -10,9 +10,8 @@
 
 /* common css */
 .container{
-    max-width: 1440px;
-    margin-left: 150px;
-    margin-right: 150px;
+    max-width: 1140px;
+    margin: auto;
 }
 
 img{
@@ -33,6 +32,15 @@ img{
 .gray-blue{
     color: rgb(137, 135, 161);
 }
+
+.btn{
+    background: rgb(233, 90, 8);
+    border: none;
+    color: white;
+    padding: 10px 55px;
+    font-size: .5rem;
+    font-family: sans-serif;
+}
 /* custom css*/
 
 /* nav desktop style */
@@ -42,7 +50,7 @@ img{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    gap: 60px;
 }
 .nav-logo{
     flex: 1;
@@ -64,8 +72,7 @@ img{
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-gap: 38px;
-
+gap: 40px;
 }
 
 
@@ -117,9 +124,65 @@ span{
     max-width: 85%;
 }
 
+.hero{
+    margin-top: 100px;
+    align-items: center;
+}
+.hero-top{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hero-top h2{
+    font-size: 3rem;
+}
+.hero-top p{
+    font-size: .9rem;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+/* card style */
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.card-container .card{
+    text-align: center;
+}
+.card-container .card img{
+    max-width: 100%;
+    
+}
+
+.card h3 {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.card h5{
+    font-weight: 500;
+    margin-bottom: 7px;
+    font-family: sans-serif;
+}
+
+.card-container .card .card-text{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
 /* Mobile Responsible */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* nav style */
     
     .nav{
@@ -145,6 +208,9 @@ span{
      flex-direction: column-reverse;
      margin-top: 10px;
  }
+ .banner img{
+     max-width: 100%;
+ }
  .banner-left {
      margin-top: 20px;
      margin-bottom: 20px;
@@ -152,4 +218,21 @@ span{
  .banner-left p{
      max-width: 100%;
  }
+ 
+ /* card style */
+ .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.card-container .card img{
+    max-width: 100%;
+}
+
+.card-container .card .btn{
+    padding: 8px 105px;
+    font-size: .6rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
 }
