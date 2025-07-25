@@ -393,7 +393,7 @@ span{
 /* Footer sections */
 .footer {
  
-.footer ou  baolground-cofdr: #f3f6fd;
+ background-color: #f3f6fd;
   padding: 3rem 1rem;
   color: #555;
 }
@@ -427,15 +427,19 @@ span{
   max-width: 100px;
   margin-bottom: 1rem;
 }
-
+.footer-column.social{
+    display: flex;
+    flex-direction: row;
+}
 .footer-column.social a {
   display: inline-block;
   margin-right: 1rem;
 }
 
 .footer-column.social img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
+  
 }
 
 /* Mobile Responsible */
@@ -596,5 +600,13 @@ outline: none;
     font-size: 1.5rem;
     margin-bottom: .3rem;
 }
+/* footer
+.footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
 
+.footer-column.social a {
+    margin: 0 0.5rem;
+}
 }
