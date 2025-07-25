@@ -249,6 +249,29 @@ background: url(trusted-badge);
     font-size: 1.1rem;
 }
 
+/* latest deals style */
+.deals{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+.deals h2{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.deals p{
+    font-size: 1.5rem;
+    
+    
+    
+    
+    
+}
+
 
 /* footer 
 footer{
@@ -350,6 +373,18 @@ footer{
     font-size: 1.8rem;
 }
 .content-box li{
+    font-size: .8rem;
+}
+
+/* latest deals style */
+.deals{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.deals h2{
+    font-size: 2rem;
+}
+.deals p {
     font-size: .8rem;
 }
 }
