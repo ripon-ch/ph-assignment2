@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+
     background-color: rgb(245, 248, 255);
     font-family: "Montserrat", sans-serif;
 }
@@ -37,9 +37,13 @@ img{
     background: rgb(233, 90, 8);
     border: none;
     color: white;
-    padding: 10px 55px;
+    padding: 10px 39%;
     font-size: .5rem;
     font-family: sans-serif;
+    transition: .4s ease;
+}
+.btn:hover{
+    background: #006688;
 }
 /* custom css*/
 
@@ -145,6 +149,8 @@ span{
     
 }
 
+
+
 /* card style */
 
 .card-container{
@@ -177,7 +183,79 @@ span{
     
 }
 
+/* badge style start */
 
+/* Section Container */
+.flower-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+    
+    margin-top: 250px;
+}
+
+/* Image Box */
+.image-box {
+    position: relative;
+    width: 540px;
+    height: 597px;
+    
+    border-radius: 10px;
+}
+
+.image-box img:first-child {
+    width: 540px;
+    height: 597px;
+    z-index: 3;
+    filter: brightness(85%);
+}
+
+/* Trusted Badge */
+.badge {
+    position: absolute;
+    top: -150px;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 286px;
+    height: 286px;
+    z-index: 20;
+    
+    filter: drop-shadow(-4px 10px 4px 0px rgba(0, 0, 0, 0.25));
+background: url(trusted-badge);
+}
+
+/* Content Box */
+.content-box {
+    flex: 1;
+    color: #333;
+}
+
+.content-box h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-box ul {
+    list-style: disc;
+    padding-left: 20px;
+    color: #6d6d6d;
+}
+
+.content-box li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+
+/* footer 
+footer{
+    background: url(./assets/news-letter-bg.png);
+    width: 1440px;
+    height: 533px;
+}
 
 
 /* Mobile Responsible */
@@ -226,13 +304,18 @@ span{
     gap: 10px;
 }
 .card-container .card img{
-    max-width: 100%;
+    width: 171px;
+    height: 196px;
 }
 
 .card-container .card .btn{
-    padding: 8px 105px;
+    padding: 8px 31%;
     font-size: .6rem;
     font-family: sans-serif;
     font-weight: 400;
 }
+
+/* flower store badge sections */
+
+
 }
