@@ -10,7 +10,7 @@
 
 /* common css */
 .container{
-    max-width: 1140px;
+    max-width: 1240px;
     margin: auto;
 }
 
@@ -402,11 +402,13 @@ span{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
+  max-width: 1240px;
   margin: auto;
   align-items: start;
 }
-
+.footer p{
+    font-size: 1rem;
+}
 .footer-column ul {
   list-style: none;
   padding: 0;
@@ -417,6 +419,7 @@ span{
   color: #555;
   display: block;
   margin: 0.5rem 0;
+  font-size: 1rem;
 }
 
 .footer-column ul li a:hover {
