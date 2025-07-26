@@ -38,9 +38,9 @@ img{
     background: rgb(233, 90, 8);
     border: none;
     color: white;
-    max-width: 100%;
-    padding: 5px 100px;
-    font-size: .5rem;
+    width: 238px;
+    padding: 8px 0;
+    font-size: .8rem;
     font-family: sans-serif;
     transition: .4s ease;
     text-align: center;
@@ -610,7 +610,7 @@ outline: none;
     font-size: 1.5rem;
     margin-bottom: .3rem;
 }
-/* footer
+/* footer*/
 .footer-container {
     grid-template-columns: 1fr;
     text-align: center;
