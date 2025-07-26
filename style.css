@@ -40,9 +40,12 @@ img{
     color: white;
     max-width: 100%;
     padding: 5px 100px;
-    font-size: .3rem;
+    font-size: .5rem;
     font-family: sans-serif;
     transition: .4s ease;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 400;
     
 }
 .btn:hover{
@@ -177,6 +180,7 @@ span{
     font-weight: 500;
     margin-bottom: 7px;
     font-family: sans-serif;
+    
 }
 
 .card-container .card .card-text{
